@@ -10,7 +10,7 @@ git commit -m "%commit_message%"
 
 echo.
 echo --- 3. Subiendo los cambios a GitHub (git push)... ---
-git push origin main
+git push origin master
 
 echo.
 echo --- Proceso completado. ---
