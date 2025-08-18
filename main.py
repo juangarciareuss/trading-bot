@@ -1,85 +1,60 @@
-# main.py (Versión Final - Especialista Anti-FOMO / Shorts)
-
-from datetime import datetime, timezone
 import time
-import os
-import sys
+from datetime import datetime, timezone
+import config
+from radar import run_phase_1_radar
+from analysis import run_phase_2_analysis
 
-import scanner
-import operations_manager
-import position_evaluator
-from utils import enviar_telegram, esperar_proxima_vela
+def print_report(acceleration_candidates: list, reversal_signals: list):
+    """Imprime los rankings de aceleración y reversión."""
+    now = datetime.now(timezone.utc)
+    
+    print("\n== 🚀 RANKING DE ACELERACIÓN (CONTEXTO) ==")
+    if acceleration_candidates:
+        sorted_accel = sorted(acceleration_candidates, key=lambda x: x['score'], reverse=True)
+        for i, cand in enumerate(sorted_accel[:5]):
+            signal_marker = "🔥" if cand['is_strong'] else " "
+            direction = "ALCISTA 🟢" if cand['change_15m'] > 0 else "BAJISTA 🔴"
+            print(f"{signal_marker} {i+1}. {cand['symbol']}: {direction} | Score: {cand['score']:.2f} | Acel. 15m: {cand['change_15m']*100:+.2f}% | Vol: {cand['vol_mult']:.1f}x prom.")
+    else:
+        print("(No se han podido analizar candidatos)")
 
-# --- CONFIGURACIÓN ---
-MAX_SHORT_TRADES = 6 # Límite total, ahora solo para shorts
-LOCK_FILE = "bot.lock"
+    print("\n== 🚨 RANKING DE REVERSIONES (CLÍMAX RECIENTE) ==")
+    if reversal_signals:
+        unique_signals = {f"{s['symbol']}_{s['pattern']}_{s['time'].isoformat()}": s for s in sorted(reversal_signals, key=lambda x: x['time'], reverse=True)}.values()
+        for signal in list(unique_signals)[:5]:
+            time_ago = (now - signal['time']).total_seconds() / 60
+            print(f"- {signal['pattern']} en {signal['symbol']} (hace {time_ago:.0f} min)")
+    else:
+        print("(No se han detectado patrones de reversión)")
 
-# --- LÓGICA DE BLOQUEO ---
-if os.path.exists(LOCK_FILE):
-    print("❌ ERROR: Ya hay una instancia del bot corriendo.")
-    sys.exit()
+if __name__ == "__main__":
+    print(f"--- 🔥 Cazador de Clímax (Sistema Modular) ---")
 
-with open(LOCK_FILE, "w") as f:
-    f.write(str(os.getpid()))
-
-print("🚀 Iniciando Bot Especialista Anti-FOMO (Shorts)...")
-
-try:
     while True:
         try:
-            print(f"\n🛰️  Iniciando ciclo | {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
-            
-            # --- FASE 1: GESTIÓN DE OPERACIONES EXISTENTES ---
-            print("\n--- Fase de Gestión ---")
-            open_trades = operations_manager.load_data("abiertas.json")
-            if open_trades:
-                actions_to_take = position_evaluator.evaluate_open_positions(open_trades, scanner.exchange)
-                if actions_to_take:
-                    print(f"🔎 Se encontraron {len(actions_to_take)} acciones de gestión:")
-                    for action in actions_to_take:
-                        if action['action'] == 'CLOSE':
-                            ticker = scanner.exchange.fetch_ticker(action['symbol'])
-                            current_price = ticker['last']
-                            closed_trade = operations_manager.close_trade_by_id(action['trade_id'], current_price, action['reason'])
-                            if closed_trade:
-                                 enviar_telegram(f"✅ CIERRE AUTOMÁTICO: {action['symbol']} cerrada por {action['reason']}.")
-                else:
-                    print("  No se requieren acciones de gestión.")
+            start_time = time.monotonic()
+            now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
+            print(f"\n--- Análisis a las {now_str} UTC ---")
+
+            watchlist = run_phase_1_radar()
+
+            if watchlist:
+                acceleration, reversals = run_phase_2_analysis(watchlist)
+                print_report(acceleration, reversals)
             else:
-                print("  No hay operaciones abiertas para gestionar.")
+                print("  -> No se encontraron activos con liquidez suficiente. Reintentando...")
 
-            # --- FASE 2: BÚSQUEDA DE NUEVAS ALERTAS (Solo Shorts) ---
-            print("\n--- Fase de Escaneo de Alertas (Solo Shorts) ---")
-            accepted_counts = operations_manager.count_accepted_trades_by_type()
-            current_shorts = accepted_counts.get('short', 0)
-
-            print(f"📊 Operaciones Short aceptadas: {current_shorts} de {MAX_SHORT_TRADES}")
-
-            if current_shorts >= MAX_SHORT_TRADES:
-                print(f"⚠️ Límite de {MAX_SHORT_TRADES} operaciones short alcanzado. Omitiendo escaneo.")
+            end_time = time.monotonic()
+            duration = end_time - start_time
+            sleep_time = config.REFRESH_SECONDS - duration
+            
+            if sleep_time > 0:
+                print(f"\nAnálisis completado en {duration:.1f} segundos. Esperando {sleep_time:.1f} segundos...")
+                time.sleep(sleep_time)
             else:
-                short_signals = scanner.scan_for_shorts()
-                if short_signals:
-                    alerts = operations_manager.load_data("alertas.json")
-                    existing_symbols = [t['symbol'] for t in open_trades] + [a['symbol'] for a in alerts]
-                    available_new_signals = [s for s in short_signals if s['symbol'] not in existing_symbols]
+                print(f"\nADVERTENCIA: El análisis tardó {duration:.1f} segundos, más que el ciclo de {config.REFRESH_SECONDS} segundos.")
 
-                    if available_new_signals:
-                        best_signal = sorted(available_new_signals, key=lambda x: x['probabilidad_ia'], reverse=True)[0]
-                        print(f"\n🏆 Nueva ALERTA generada (mejor opción short): {best_signal['symbol']} con {best_signal['probabilidad_ia']*100:.2f}%")
-                        operations_manager.save_new_alert(best_signal)
-                    else:
-                        print("✔️ Todas las señales encontradas ya tienen una posición o alerta existente.")
-                else:
-                    print("✅ No se encontraron señales de venta de alta confianza en este ciclo.")
-            
-            esperar_proxima_vela(60)
-            
+        except KeyboardInterrupt:
+            print("\nCazador detenido."); break
         except Exception as e:
-            print(f"❌ Error en el bucle principal: {e}")
-            time.sleep(300)
-
-finally:
-    if os.path.exists(LOCK_FILE):
-        os.remove(LOCK_FILE)
-    print("\n🛑 Generador de Alertas detenido.")
+            print(f"Error en el bucle principal: {e}"); time.sleep(60)
