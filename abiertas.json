@@ -1,0 +1,101 @@
+[
+    {
+        "symbol": "SWELL/USDT",
+        "precio_entrada": 0.01131,
+        "take_profit": "0.0103",
+        "stop_loss": "0.0121",
+        "atr_info": {
+            "value": 0.000517190914184546
+        },
+        "apuesta_sugerida": 250,
+        "tipo": "short",
+        "id": "544a126a-92d2-4525-8d27-3646a27fc771",
+        "timestamp_entrada": "2025-08-15T14:23:10.070360+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "99.73%",
+        "timeframe": "1H",
+        "atr_value": "0.0005"
+    },
+    {
+        "symbol": "CELR/USDT",
+        "precio_entrada": 0.00883,
+        "take_profit": "0.0083",
+        "stop_loss": "0.0092",
+        "atr_info": {
+            "value": 0.00033492099348060133
+        },
+        "apuesta_sugerida": 250,
+        "tipo": "short",
+        "id": "7a0a727f-baa4-4d24-ad8e-54c2594cdea6",
+        "timestamp_entrada": "2025-08-16T20:07:37.660950+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "99.64%",
+        "timeframe": "1H",
+        "atr_value": "0.0003"
+    },
+    {
+        "symbol": "BAT/USDT",
+        "precio_entrada": 0.1687,
+        "apuesta_sugerida": 250,
+        "atr_value": null,
+        "tipo": "short",
+        "id": "57677a44-a816-4e31-bcf4-9b079c55e35f",
+        "timestamp_entrada": "2025-08-16T20:15:28.772498+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "99.06%",
+        "timeframe": "1H",
+        "take_profit": null,
+        "stop_loss": null
+    },
+    {
+        "symbol": "AIOT/USDT",
+        "precio_entrada": 0.69032,
+        "take_profit": "0.6334",
+        "stop_loss": "0.7330",
+        "atr_info": {
+            "value": 0.028482124676944474
+        },
+        "apuesta_sugerida": 250,
+        "tipo": "short",
+        "id": "f459e363-ad02-4cc2-9d21-98c28bf1a2f3",
+        "timestamp_entrada": "2025-08-15T05:19:40.299524+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "88.91%",
+        "timeframe": "1H",
+        "atr_value": "0.0285"
+    },
+    {
+        "symbol": "MYX/USDT",
+        "precio_entrada": 1.8254,
+        "take_profit": "1.5712",
+        "stop_loss": "2.0160",
+        "atr_info": {
+            "value": 0.12707853170046424
+        },
+        "apuesta_sugerida": 200,
+        "tipo": "short",
+        "id": "b89f06f8-c2ff-4cee-8c1b-4f7d6d803174",
+        "timestamp_entrada": "2025-08-15T15:01:28.509825+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "98.05%",
+        "timeframe": "1H",
+        "atr_value": "0.1271"
+    },
+    {
+        "symbol": "VVV/USDT",
+        "precio_entrada": 3.105,
+        "take_profit": "2.8642",
+        "stop_loss": "3.2856",
+        "atr_info": {
+            "value": 0.12040623524418327
+        },
+        "apuesta_sugerida": 250,
+        "tipo": "short",
+        "id": "073cc046-82c8-45ee-867c-33b188fd9e79",
+        "timestamp_entrada": "2025-08-15T15:07:46.387521+00:00",
+        "estado": "aceptada",
+        "prediccion_ia": "99.25%",
+        "timeframe": "1H",
+        "atr_value": "0.1204"
+    }
+]
