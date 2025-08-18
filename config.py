@@ -1,21 +1,17 @@
-# --- CONFIGURACIÓN GENERAL ---
-REFRESH_SECONDS = 300 # Ciclo de 5 minutos
+# /config.py
 
-# --- PARÁMETROS DEL RADAR (FASE 1) ---
-MIN_24H_CHANGE_PCT = 15.0
-MIN_24H_VOLUME_USD = 5_000_000
-
-# --- PARÁMETROS DE ANÁLISIS PROFUNDO (FASE 2) ---
+# --- Parámetros Generales ---
+REFRESH_SECONDS = 300
+MIN_24H_VOLUME_USD = 5_000_000 # <-- Esta es la variable del error
 TIMEFRAME_ANALYSIS = '5m'
+WATCHLIST_SIZE = 10 # <-- El Top 10 de sospechosos
+
+# --- Parámetros de Análisis Profundo (FASE 2) ---
 REVERSAL_TIMEFRAME = '15m'
 OHLCV_LIMIT = 100
-
-# Parámetros para el Ranking de Aceleración
 ACCEL_LOOKBACK_CANDLES = 3
 ACCEL_VOLUME_MULT = 2.0
 ACCEL_CHANGE_PCT = 1.5
-
-# Parámetros para el Ranking de Reversión
 REVERSAL_LOOKBACK_MINS = 30
 REVERSAL_VOLUME_MULT = 2.5
 REVERSAL_WICK_MULT = 1.5

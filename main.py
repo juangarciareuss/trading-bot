@@ -1,8 +1,12 @@
 import time
 from datetime import datetime, timezone
+import warnings
 import config
-from radar import run_phase_1_radar
-from analysis import run_phase_2_analysis
+from AnalisisGeneral import run_analisis_general
+from AnalisisDetalle import run_analisis_detalle
+
+# Ignorar advertencias de pandas que no son críticas
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def print_report(acceleration_candidates: list, reversal_signals: list):
     """Imprime los rankings de aceleración y reversión."""
@@ -36,14 +40,17 @@ if __name__ == "__main__":
             now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
             print(f"\n--- Análisis a las {now_str} UTC ---")
 
-            watchlist = run_phase_1_radar()
+            # --- FASE 1 ---
+            watchlist = run_analisis_general()
 
+            # --- FASE 2 ---
             if watchlist:
-                acceleration, reversals = run_phase_2_analysis(watchlist)
+                acceleration, reversals = run_analisis_detalle(watchlist)
                 print_report(acceleration, reversals)
             else:
-                print("  -> No se encontraron activos con liquidez suficiente. Reintentando...")
+                print("  -> No se encontraron activos para la Fase 2. Reintentando...")
 
+            # --- CÁLCULO DE TIEMPO DE CICLO EXACTO ---
             end_time = time.monotonic()
             duration = end_time - start_time
             sleep_time = config.REFRESH_SECONDS - duration

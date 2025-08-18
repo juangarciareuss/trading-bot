@@ -1,47 +1,34 @@
-import pandas as pd
-import time
-from datetime import datetime, timezone
+# /AnalisisGeneral.py
 
-# (Asegúrate de que tus otras importaciones necesarias estén aquí, como la de 'config')
-from utils import exchange
 import config
+from utils import exchange
 
-def get_liquid_symbols():
+def run_analisis_general() -> list:
     """
-    Obtiene una lista de todos los símbolos de futuros USDT con un volumen mínimo.
+    Escanea el momentum de 5 minutos de todos los activos líquidos para encontrar
+    a los 'sospechosos' con la variación más fuerte.
     """
-    print("Filtrando activos por liquidez...")
+    print("Fase 1: Ejecutando Análisis General de Momentum...")
+    
     all_tickers = exchange.fetch_tickers()
     liquid_symbols = [
         symbol for symbol, ticker in all_tickers.items()
         if symbol.endswith('/USDT:USDT') and ticker.get('quoteVolume', 0) > config.MIN_24H_VOLUME_USD
     ]
-    print(f"-> {len(liquid_symbols)} activos líquidos encontrados.")
-    return liquid_symbols
-
-def scan_momentum_climax() -> list:
-    """
-    Escanea el momentum de 5 minutos de todos los activos líquidos para encontrar
-    a los 'sospechosos' con la variación más fuerte.
-    """
-    print("Fase 1: Escaneando momentum de 5 minutos en todos los activos líquidos...")
     
-    liquid_symbols = get_liquid_symbols()
     if not liquid_symbols:
+        print("  -> No se encontraron activos con liquidez suficiente.")
         return []
 
     momentum_candidates = []
     for i, symbol in enumerate(liquid_symbols):
         print(f"  -> Escaneando {i+1}/{len(liquid_symbols)}: {symbol}", end='\r')
         try:
-            # Pedimos solo 3 velas para ser lo más eficientes posible
             ohlcv = exchange.fetch_ohlcv(symbol, config.TIMEFRAME_ANALYSIS, limit=3)
             if len(ohlcv) < 2: continue
             
-            # La última vela cerrada es la penúltima de la lista
             last_closed_candle = ohlcv[-2]
-            open_price = last_closed_candle[1]
-            close_price = last_closed_candle[4]
+            open_price, close_price = last_closed_candle[1], last_closed_candle[4]
 
             if open_price > 0:
                 momentum_pct = (close_price - open_price) / open_price * 100
@@ -55,16 +42,12 @@ def scan_momentum_climax() -> list:
         print("  -> No se pudo calcular el momentum para los activos.")
         return []
         
-    # Crear la watchlist con el Top de los activos con más momentum
     sorted_by_momentum = sorted(momentum_candidates, key=lambda x: abs(x['momentum_5m']), reverse=True)
     watchlist = [cand['symbol'] for cand in sorted_by_momentum[:config.WATCHLIST_SIZE]]
     
     if watchlist:
-        print(f"  -> Top {len(watchlist)} 'sospechosos' identificados para análisis de contexto.")
+        print(f"  -> Top {len(watchlist)} 'sospechosos' identificados para Análisis de Detalle.")
         for cand in sorted_by_momentum[:3]:
             print(f"    - {cand['symbol']}: Momentum 5m: {cand['momentum_5m']:+.2f}%")
             
     return watchlist
-
-# Si tienes otras funciones en tu scanner.py, puedes dejarlas.
-# La función principal que llamará tu main.py para esta estrategia es scan_momentum_climax().
