@@ -1,0 +1,7 @@
+2025-08-18 21:05:33.361855+00:00 - 1000PEPEUSDT [1w] - APIError(code=-1121): Invalid symbol.
+2025-08-18 21:05:42.750536+00:00 - AIOTUSDT [1w] - APIError(code=-1121): Invalid symbol.
+2025-08-18 21:06:27.443224+00:00 - FARTCOINUSDT [1w] - APIError(code=-1121): Invalid symbol.
+2025-08-18 21:06:38.543741+00:00 - MEMEFIUSDT [1w] - APIError(code=-1121): Invalid symbol.
+2025-08-18 21:19:07.096789+00:00 - BTC/USDT [5m] - APIError(code=-1100): Illegal characters found in parameter 'symbol'; legal range is '^[A-Z0-9-_.]{1,20}$'.
+2025-08-18 21:19:08.521625+00:00 - ETH/USDT [5m] - APIError(code=-1100): Illegal characters found in parameter 'symbol'; legal range is '^[A-Z0-9-_.]{1,20}$'.
+2025-08-18 21:19:09.950994+00:00 - LTC/USDT [5m] - APIError(code=-1100): Illegal characters found in parameter 'symbol'; legal range is '^[A-Z0-9-_.]{1,20}$'.

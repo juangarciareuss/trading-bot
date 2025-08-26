@@ -1,1 +1,1406 @@
-[]
+[
+    {
+        "id": "climax_DOLOUSDT:USDT_20250818215942",
+        "symbol": "DOLO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T21:59:42.184677+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.064,
+            "acel_15m_pct": 2.76,
+            "vol_mult": 2.31
+        }
+    },
+    {
+        "id": "climax_CROSSUSDT:USDT_20250818220439",
+        "symbol": "CROSS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:04:39.583512+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0963,
+            "acel_15m_pct": 2.74,
+            "vol_mult": 3.52
+        }
+    },
+    {
+        "id": "climax_OGUSDT:USDT_20250818220939",
+        "symbol": "OG/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:09:39.690609+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0999,
+            "acel_15m_pct": 3.05,
+            "vol_mult": 3.27
+        }
+    },
+    {
+        "id": "climax_KERNELUSDT:USDT_20250818220939",
+        "symbol": "KERNEL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:09:39.707496+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0675,
+            "acel_15m_pct": 2.83,
+            "vol_mult": 2.38
+        }
+    },
+    {
+        "id": "climax_MYROUSDT:USDT_20250818222439",
+        "symbol": "MYRO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:24:39.062479+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0648,
+            "acel_15m_pct": 2.35,
+            "vol_mult": 2.75
+        }
+    },
+    {
+        "id": "climax_LINKUSDT:USDT_20250818222939",
+        "symbol": "LINK/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:29:39.018321+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0503,
+            "acel_15m_pct": 1.96,
+            "vol_mult": 2.56
+        }
+    },
+    {
+        "id": "climax_XCNUSDT:USDT_20250818223438",
+        "symbol": "XCN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:34:38.728357+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0765,
+            "acel_15m_pct": 1.69,
+            "vol_mult": 4.53
+        }
+    },
+    {
+        "id": "climax_SPXUSDT:USDT_20250818223940",
+        "symbol": "SPX/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:39:40.012981+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0546,
+            "acel_15m_pct": -1.91,
+            "vol_mult": 2.85
+        }
+    },
+    {
+        "id": "climax_AIOTUSDT:USDT_20250818224437",
+        "symbol": "AIOT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:44:37.769084+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1247,
+            "acel_15m_pct": 4.65,
+            "vol_mult": 2.68
+        }
+    },
+    {
+        "id": "climax_BUSDT:USDT_20250818225438",
+        "symbol": "B/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:54:38.881603+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1468,
+            "acel_15m_pct": 1.38,
+            "vol_mult": 10.65
+        }
+    },
+    {
+        "id": "climax_HIFIUSDT:USDT_20250818225938",
+        "symbol": "HIFI/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T22:59:38.477116+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0511,
+            "acel_15m_pct": -0.67,
+            "vol_mult": 7.58
+        }
+    },
+    {
+        "id": "climax_DAMUSDT:USDT_20250818231441",
+        "symbol": "DAM/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T23:14:41.511130+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0787,
+            "acel_15m_pct": -5.52,
+            "vol_mult": 1.42
+        }
+    },
+    {
+        "id": "climax_FHEUSDT:USDT_20250818232437",
+        "symbol": "FHE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T23:24:37.552361+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1,
+            "acel_15m_pct": 2.57,
+            "vol_mult": 3.89
+        }
+    },
+    {
+        "id": "climax_MYXUSDT:USDT_20250818234941",
+        "symbol": "MYX/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-18T23:49:41.141767+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0839,
+            "acel_15m_pct": -4.42,
+            "vol_mult": 1.9
+        }
+    },
+    {
+        "id": "climax_POLUSDT:USDT_20250819010442",
+        "symbol": "POL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T01:04:42.707464+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1898,
+            "acel_15m_pct": 3.71,
+            "vol_mult": 5.12
+        }
+    },
+    {
+        "id": "climax_CARVUSDT:USDT_20250819010442",
+        "symbol": "CARV/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T01:04:42.728514+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0695,
+            "acel_15m_pct": 2.59,
+            "vol_mult": 2.69
+        }
+    },
+    {
+        "id": "climax_BERAUSDT:USDT_20250819010442",
+        "symbol": "BERA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T01:04:42.743258+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0581,
+            "acel_15m_pct": 1.91,
+            "vol_mult": 3.05
+        }
+    },
+    {
+        "id": "climax_BIOUSDT:USDT_20250819033316",
+        "symbol": "BIO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:33:16.273659+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1616,
+            "acel_15m_pct": 4.31,
+            "vol_mult": 3.75
+        }
+    },
+    {
+        "id": "climax_LAYERUSDT:USDT_20250819033807",
+        "symbol": "LAYER/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:38:07.979249+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1341,
+            "acel_15m_pct": -1.37,
+            "vol_mult": 9.77
+        }
+    },
+    {
+        "id": "climax_SKATEUSDT:USDT_20250819033808",
+        "symbol": "SKATE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:38:08.050039+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0706,
+            "acel_15m_pct": 1.0,
+            "vol_mult": 7.05
+        }
+    },
+    {
+        "id": "climax_TONUSDT:USDT_20250819034309",
+        "symbol": "TON/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:43:09.726902+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0724,
+            "acel_15m_pct": -1.35,
+            "vol_mult": 5.35
+        }
+    },
+    {
+        "id": "climax_PNUTUSDT:USDT_20250819034813",
+        "symbol": "PNUT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.270032+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.3197,
+            "acel_15m_pct": -1.8,
+            "vol_mult": 17.81
+        }
+    },
+    {
+        "id": "climax_OMUSDT:USDT_20250819034813",
+        "symbol": "OM/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.308951+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2342,
+            "acel_15m_pct": -1.9,
+            "vol_mult": 12.32
+        }
+    },
+    {
+        "id": "climax_AIOUSDT:USDT_20250819034813",
+        "symbol": "AIO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.333722+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1962,
+            "acel_15m_pct": 4.42,
+            "vol_mult": 4.44
+        }
+    },
+    {
+        "id": "climax_HIGHUSDT:USDT_20250819034813",
+        "symbol": "HIGH/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.348180+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1699,
+            "acel_15m_pct": -1.7,
+            "vol_mult": 10.02
+        }
+    },
+    {
+        "id": "climax_REZUSDT:USDT_20250819034813",
+        "symbol": "REZ/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.404082+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1236,
+            "acel_15m_pct": -1.63,
+            "vol_mult": 7.57
+        }
+    },
+    {
+        "id": "climax_MOODENGUSDT:USDT_20250819034813",
+        "symbol": "MOODENG/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.446338+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1149,
+            "acel_15m_pct": -1.82,
+            "vol_mult": 6.32
+        }
+    },
+    {
+        "id": "climax_NEIROUSDT:USDT_20250819034813",
+        "symbol": "NEIRO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.474506+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.091,
+            "acel_15m_pct": -1.74,
+            "vol_mult": 5.24
+        }
+    },
+    {
+        "id": "climax_GOATUSDT:USDT_20250819034813",
+        "symbol": "GOAT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.485985+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0838,
+            "acel_15m_pct": -1.75,
+            "vol_mult": 4.79
+        }
+    },
+    {
+        "id": "climax_ARCUSDT:USDT_20250819034813",
+        "symbol": "ARC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.504065+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.073,
+            "acel_15m_pct": -1.59,
+            "vol_mult": 4.58
+        }
+    },
+    {
+        "id": "climax_NEIROETHUSDT:USDT_20250819034813",
+        "symbol": "NEIROETH/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:48:13.532985+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0675,
+            "acel_15m_pct": -1.5,
+            "vol_mult": 4.5
+        }
+    },
+    {
+        "id": "climax_IOTXUSDT:USDT_20250819035809",
+        "symbol": "IOTX/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T03:58:09.306639+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0695,
+            "acel_15m_pct": -1.25,
+            "vol_mult": 5.56
+        }
+    },
+    {
+        "id": "climax_ZKJUSDT:USDT_20250819040311",
+        "symbol": "ZKJ/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:03:11.141059+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0874,
+            "acel_15m_pct": -2.17,
+            "vol_mult": 4.02
+        }
+    },
+    {
+        "id": "climax_GRASSUSDT:USDT_20250819040813",
+        "symbol": "GRASS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:08:13.216006+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1434,
+            "acel_15m_pct": -2.05,
+            "vol_mult": 7.0
+        }
+    },
+    {
+        "id": "climax_HYPERUSDT:USDT_20250819040813",
+        "symbol": "HYPER/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:08:13.271500+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0934,
+            "acel_15m_pct": -1.64,
+            "vol_mult": 5.7
+        }
+    },
+    {
+        "id": "climax_BANANAS31USDT:USDT_20250819041313",
+        "symbol": "BANANAS31/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:13:13.340762+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2734,
+            "acel_15m_pct": -3.74,
+            "vol_mult": 7.31
+        }
+    },
+    {
+        "id": "climax_AGTUSDT:USDT_20250819041814",
+        "symbol": "AGT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:18:14.586674+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1542,
+            "acel_15m_pct": -2.49,
+            "vol_mult": 6.2
+        }
+    },
+    {
+        "id": "climax_BANKUSDT:USDT_20250819041814",
+        "symbol": "BANK/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:18:14.632894+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1026,
+            "acel_15m_pct": -1.68,
+            "vol_mult": 6.1
+        }
+    },
+    {
+        "id": "climax_FISUSDT:USDT_20250819041814",
+        "symbol": "FIS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:18:14.656210+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0711,
+            "acel_15m_pct": -1.54,
+            "vol_mult": 4.62
+        }
+    },
+    {
+        "id": "climax_YALAUSDT:USDT_20250819042311",
+        "symbol": "YALA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:23:11.479362+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0539,
+            "acel_15m_pct": -1.8,
+            "vol_mult": 2.99
+        }
+    },
+    {
+        "id": "climax_TSTUSDT:USDT_20250819042811",
+        "symbol": "TST/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:28:11.505483+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0601,
+            "acel_15m_pct": 1.78,
+            "vol_mult": 3.38
+        }
+    },
+    {
+        "id": "climax_PENGUUSDT:USDT_20250819044821",
+        "symbol": "PENGU/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T04:48:21.024140+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0616,
+            "acel_15m_pct": 2.68,
+            "vol_mult": 2.3
+        }
+    },
+    {
+        "id": "climax_FARTCOINUSDT:USDT_20250819050532",
+        "symbol": "FARTCOIN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T05:05:32.445187+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0643,
+            "acel_15m_pct": 2.92,
+            "vol_mult": 2.2
+        }
+    },
+    {
+        "id": "climax_1INCHUSDT:USDT_20250819050532",
+        "symbol": "1INCH/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T05:05:32.483622+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0572,
+            "acel_15m_pct": 1.34,
+            "vol_mult": 4.28
+        }
+    },
+    {
+        "id": "climax_PLAYUSDT:USDT_20250819054110",
+        "symbol": "PLAY/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T05:41:10.022083+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2332,
+            "acel_15m_pct": -2.31,
+            "vol_mult": 10.11
+        }
+    },
+    {
+        "id": "climax_VVVUSDT:USDT_20250819054110",
+        "symbol": "VVV/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T05:41:10.052540+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0741,
+            "acel_15m_pct": 2.03,
+            "vol_mult": 3.64
+        }
+    },
+    {
+        "id": "climax_MAVUSDT:USDT_20250819134249",
+        "symbol": "MAV/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:42:49.178743+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0931,
+            "acel_15m_pct": -1.91,
+            "vol_mult": 4.87
+        }
+    },
+    {
+        "id": "climax_MANTAUSDT:USDT_20250819134749",
+        "symbol": "MANTA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:47:49.396254+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1311,
+            "acel_15m_pct": -2.06,
+            "vol_mult": 6.36
+        }
+    },
+    {
+        "id": "climax_XNYUSDT:USDT_20250819134749",
+        "symbol": "XNY/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:47:49.432971+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1267,
+            "acel_15m_pct": -3.25,
+            "vol_mult": 3.9
+        }
+    },
+    {
+        "id": "climax_PUMPBTCUSDT:USDT_20250819135252",
+        "symbol": "PUMPBTC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:52:52.893660+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1427,
+            "acel_15m_pct": -2.95,
+            "vol_mult": 4.84
+        }
+    },
+    {
+        "id": "climax_PENDLEUSDT:USDT_20250819135252",
+        "symbol": "PENDLE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:52:52.919683+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0911,
+            "acel_15m_pct": -1.64,
+            "vol_mult": 5.55
+        }
+    },
+    {
+        "id": "climax_MORPHOUSDT:USDT_20250819135749",
+        "symbol": "MORPHO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:57:49.726841+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0623,
+            "acel_15m_pct": 1.25,
+            "vol_mult": 5.0
+        }
+    },
+    {
+        "id": "climax_BROCCOLI714USDT:USDT_20250819135749",
+        "symbol": "BROCCOLI714/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T13:57:49.756779+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0582,
+            "acel_15m_pct": 2.04,
+            "vol_mult": 2.86
+        }
+    },
+    {
+        "id": "climax_ESPORTSUSDT:USDT_20250819141748",
+        "symbol": "ESPORTS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:17:48.819185+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.7737,
+            "acel_15m_pct": -4.98,
+            "vol_mult": 15.53
+        }
+    },
+    {
+        "id": "climax_LEVERUSDT:USDT_20250819142750",
+        "symbol": "LEVER/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:27:50.386289+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.3182,
+            "acel_15m_pct": -2.79,
+            "vol_mult": 11.39
+        }
+    },
+    {
+        "id": "climax_A2ZUSDT:USDT_20250819142750",
+        "symbol": "A2Z/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:27:50.419128+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1061,
+            "acel_15m_pct": -2.36,
+            "vol_mult": 4.5
+        }
+    },
+    {
+        "id": "climax_RESOLVUSDT:USDT_20250819143247",
+        "symbol": "RESOLV/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.634494+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2983,
+            "acel_15m_pct": -4.1,
+            "vol_mult": 7.28
+        }
+    },
+    {
+        "id": "climax_ICNTUSDT:USDT_20250819143247",
+        "symbol": "ICNT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.663377+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2156,
+            "acel_15m_pct": -2.79,
+            "vol_mult": 7.74
+        }
+    },
+    {
+        "id": "climax_CHILLGUYUSDT:USDT_20250819143247",
+        "symbol": "CHILLGUY/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.685076+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1274,
+            "acel_15m_pct": -2.75,
+            "vol_mult": 4.64
+        }
+    },
+    {
+        "id": "climax_PROVEUSDT:USDT_20250819143247",
+        "symbol": "PROVE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.702184+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.127,
+            "acel_15m_pct": -3.03,
+            "vol_mult": 4.19
+        }
+    },
+    {
+        "id": "climax_BANANAUSDT:USDT_20250819143247",
+        "symbol": "BANANA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.727185+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.098,
+            "acel_15m_pct": -2.03,
+            "vol_mult": 4.84
+        }
+    },
+    {
+        "id": "climax_CUSDT:USDT_20250819143247",
+        "symbol": "C/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.748214+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0884,
+            "acel_15m_pct": -2.5,
+            "vol_mult": 3.54
+        }
+    },
+    {
+        "id": "climax_USELESSUSDT:USDT_20250819143247",
+        "symbol": "USELESS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.771257+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.068,
+            "acel_15m_pct": -3.32,
+            "vol_mult": 2.05
+        }
+    },
+    {
+        "id": "climax_INUSDT:USDT_20250819143247",
+        "symbol": "IN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:32:47.799196+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.065,
+            "acel_15m_pct": -3.09,
+            "vol_mult": 2.1
+        }
+    },
+    {
+        "id": "climax_PUMPUSDT:USDT_20250819144251",
+        "symbol": "PUMP/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:42:51.621228+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.151,
+            "acel_15m_pct": -2.04,
+            "vol_mult": 7.4
+        }
+    },
+    {
+        "id": "climax_EIGENUSDT:USDT_20250819144251",
+        "symbol": "EIGEN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:42:51.673005+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.148,
+            "acel_15m_pct": -1.92,
+            "vol_mult": 7.7
+        }
+    },
+    {
+        "id": "climax_PORTALUSDT:USDT_20250819144251",
+        "symbol": "PORTAL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:42:51.714255+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0553,
+            "acel_15m_pct": -1.42,
+            "vol_mult": 3.9
+        }
+    },
+    {
+        "id": "climax_ERAUSDT:USDT_20250819144751",
+        "symbol": "ERA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:47:51.778664+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1703,
+            "acel_15m_pct": -1.84,
+            "vol_mult": 9.27
+        }
+    },
+    {
+        "id": "climax_API3USDT:USDT_20250819144751",
+        "symbol": "API3/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T14:47:51.813636+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0505,
+            "acel_15m_pct": -3.5,
+            "vol_mult": 1.44
+        }
+    },
+    {
+        "id": "climax_BROCCOLIF3BUSDT:USDT_20250819150750",
+        "symbol": "BROCCOLIF3B/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:07:50.424161+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1594,
+            "acel_15m_pct": -5.95,
+            "vol_mult": 2.68
+        }
+    },
+    {
+        "id": "climax_TRUMPUSDT:USDT_20250819151250",
+        "symbol": "TRUMP/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:12:50.282607+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.08,
+            "acel_15m_pct": -1.17,
+            "vol_mult": 6.84
+        }
+    },
+    {
+        "id": "climax_SYNUSDT:USDT_20250819151250",
+        "symbol": "SYN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:12:50.335705+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0763,
+            "acel_15m_pct": 1.83,
+            "vol_mult": 4.18
+        }
+    },
+    {
+        "id": "climax_CTSIUSDT:USDT_20250819151753",
+        "symbol": "CTSI/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:17:53.593908+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0542,
+            "acel_15m_pct": 2.91,
+            "vol_mult": 1.86
+        }
+    },
+    {
+        "id": "climax_SOONUSDT:USDT_20250819152750",
+        "symbol": "SOON/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:27:50.743028+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0523,
+            "acel_15m_pct": 3.16,
+            "vol_mult": 1.66
+        }
+    },
+    {
+        "id": "climax_OGNUSDT:USDT_20250819153254",
+        "symbol": "OGN/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:32:54.176893+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.5947,
+            "acel_15m_pct": 6.05,
+            "vol_mult": 9.84
+        }
+    },
+    {
+        "id": "climax_DIAUSDT:USDT_20250819153254",
+        "symbol": "DIA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:32:54.228937+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.4285,
+            "acel_15m_pct": 6.29,
+            "vol_mult": 6.81
+        }
+    },
+    {
+        "id": "climax_ADAUSDT:USDT_20250819155253",
+        "symbol": "ADA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:52:53.473377+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1774,
+            "acel_15m_pct": -3.28,
+            "vol_mult": 5.4
+        }
+    },
+    {
+        "id": "climax_TACUSDT:USDT_20250819155754",
+        "symbol": "TAC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T15:57:54.118289+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0705,
+            "acel_15m_pct": -2.06,
+            "vol_mult": 3.43
+        }
+    },
+    {
+        "id": "climax_VINEUSDT:USDT_20250819160749",
+        "symbol": "VINE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T16:07:49.650269+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0579,
+            "acel_15m_pct": 2.69,
+            "vol_mult": 2.16
+        }
+    },
+    {
+        "id": "climax_MUBARAKUSDT:USDT_20250819161254",
+        "symbol": "MUBARAK/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T16:12:54.000983+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1714,
+            "acel_15m_pct": -1.87,
+            "vol_mult": 9.16
+        }
+    },
+    {
+        "id": "climax_OBOLUSDT:USDT_20250819161755",
+        "symbol": "OBOL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T16:17:55.133685+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1039,
+            "acel_15m_pct": -1.79,
+            "vol_mult": 5.82
+        }
+    },
+    {
+        "id": "climax_CHRUSDT:USDT_20250819161755",
+        "symbol": "CHR/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T16:17:55.201313+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0516,
+            "acel_15m_pct": 1.45,
+            "vol_mult": 3.57
+        }
+    },
+    {
+        "id": "climax_CFXUSDT:USDT_20250819164256",
+        "symbol": "CFX/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T16:42:56.560113+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0636,
+            "acel_15m_pct": -1.83,
+            "vol_mult": 3.48
+        }
+    },
+    {
+        "id": "climax_XAIUSDT:USDT_20250819170750",
+        "symbol": "XAI/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:07:50.700365+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1071,
+            "acel_15m_pct": 1.34,
+            "vol_mult": 8.01
+        }
+    },
+    {
+        "id": "climax_AIXBTUSDT:USDT_20250819171252",
+        "symbol": "AIXBT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:12:52.251981+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0575,
+            "acel_15m_pct": -1.35,
+            "vol_mult": 4.26
+        }
+    },
+    {
+        "id": "climax_RAREUSDT:USDT_20250819171252",
+        "symbol": "RARE/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:12:52.288106+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0513,
+            "acel_15m_pct": -2.88,
+            "vol_mult": 1.78
+        }
+    },
+    {
+        "id": "climax_IOUSDT:USDT_20250819173258",
+        "symbol": "IO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:32:58.690675+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0759,
+            "acel_15m_pct": 2.04,
+            "vol_mult": 3.71
+        }
+    },
+    {
+        "id": "climax_VELVETUSDT:USDT_20250819175257",
+        "symbol": "VELVET/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:52:57.003196+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0637,
+            "acel_15m_pct": -1.36,
+            "vol_mult": 4.68
+        }
+    },
+    {
+        "id": "climax_PHAUSDT:USDT_20250819175756",
+        "symbol": "PHA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T17:57:56.942912+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0645,
+            "acel_15m_pct": 1.56,
+            "vol_mult": 4.14
+        }
+    },
+    {
+        "id": "climax_NAORISUSDT:USDT_20250819183756",
+        "symbol": "NAORIS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T18:37:56.925729+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.3356,
+            "acel_15m_pct": -2.74,
+            "vol_mult": 12.25
+        }
+    },
+    {
+        "id": "climax_TAGUSDT:USDT_20250819184251",
+        "symbol": "TAG/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T18:42:51.178006+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1073,
+            "acel_15m_pct": 3.27,
+            "vol_mult": 3.28
+        }
+    },
+    {
+        "id": "climax_TOWNSUSDT:USDT_20250819185254",
+        "symbol": "TOWNS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T18:52:54.976494+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1236,
+            "acel_15m_pct": -3.63,
+            "vol_mult": 3.41
+        }
+    },
+    {
+        "id": "climax_SWARMSUSDT:USDT_20250819190754",
+        "symbol": "SWARMS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.622419+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1775,
+            "acel_15m_pct": -2.04,
+            "vol_mult": 8.7
+        }
+    },
+    {
+        "id": "climax_VOXELUSDT:USDT_20250819190754",
+        "symbol": "VOXEL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.676832+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1651,
+            "acel_15m_pct": -1.76,
+            "vol_mult": 9.38
+        }
+    },
+    {
+        "id": "climax_ALPHAUSDT:USDT_20250819190754",
+        "symbol": "ALPHA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.698890+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1183,
+            "acel_15m_pct": -1.55,
+            "vol_mult": 7.65
+        }
+    },
+    {
+        "id": "climax_INITUSDT:USDT_20250819190754",
+        "symbol": "INIT/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.724645+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.094,
+            "acel_15m_pct": -1.4,
+            "vol_mult": 6.72
+        }
+    },
+    {
+        "id": "climax_SAGAUSDT:USDT_20250819190754",
+        "symbol": "SAGA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.758181+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0809,
+            "acel_15m_pct": -1.49,
+            "vol_mult": 5.44
+        }
+    },
+    {
+        "id": "climax_IDUSDT:USDT_20250819190754",
+        "symbol": "ID/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T19:07:54.783035+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0676,
+            "acel_15m_pct": -1.18,
+            "vol_mult": 5.71
+        }
+    },
+    {
+        "id": "climax_FXSUSDT:USDT_20250819202259",
+        "symbol": "FXS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T20:22:59.497477+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0563,
+            "acel_15m_pct": 1.68,
+            "vol_mult": 3.34
+        }
+    },
+    {
+        "id": "climax_MUSDT:USDT_20250819202756",
+        "symbol": "M/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T20:27:56.908304+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.059,
+            "acel_15m_pct": 2.52,
+            "vol_mult": 2.34
+        }
+    },
+    {
+        "id": "climax_NILUSDT:USDT_20250819203258",
+        "symbol": "NIL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T20:32:58.207957+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1285,
+            "acel_15m_pct": 3.39,
+            "vol_mult": 3.79
+        }
+    },
+    {
+        "id": "climax_VICUSDT:USDT_20250819210758",
+        "symbol": "VIC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T21:07:58.083483+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1554,
+            "acel_15m_pct": 2.12,
+            "vol_mult": 7.32
+        }
+    },
+    {
+        "id": "climax_EPICUSDT:USDT_20250819224258",
+        "symbol": "EPIC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T22:42:58.809429+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0765,
+            "acel_15m_pct": -2.18,
+            "vol_mult": 3.51
+        }
+    },
+    {
+        "id": "climax_UMAUSDT:USDT_20250819225757",
+        "symbol": "UMA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T22:57:57.197149+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0592,
+            "acel_15m_pct": 2.08,
+            "vol_mult": 2.84
+        }
+    },
+    {
+        "id": "climax_IDOLUSDT:USDT_20250819230254",
+        "symbol": "IDOL/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T23:02:54.804095+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1162,
+            "acel_15m_pct": -3.25,
+            "vol_mult": 3.58
+        }
+    },
+    {
+        "id": "climax_ATAUSDT:USDT_20250819231257",
+        "symbol": "ATA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T23:12:57.060040+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.2082,
+            "acel_15m_pct": -2.99,
+            "vol_mult": 6.97
+        }
+    },
+    {
+        "id": "climax_ZORAUSDT:USDT_20250819231257",
+        "symbol": "ZORA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T23:12:57.103616+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1316,
+            "acel_15m_pct": -3.93,
+            "vol_mult": 3.35
+        }
+    },
+    {
+        "id": "climax_BSWUSDT:USDT_20250819232800",
+        "symbol": "BSW/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-19T23:28:00.481557+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0508,
+            "acel_15m_pct": -2.14,
+            "vol_mult": 2.38
+        }
+    },
+    {
+        "id": "climax_TANSSIUSDT:USDT_20250820000257",
+        "symbol": "TANSSI/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T00:02:57.361795+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 1.978,
+            "acel_15m_pct": -8.54,
+            "vol_mult": 23.17
+        }
+    },
+    {
+        "id": "climax_CYBERUSDT:USDT_20250820001756",
+        "symbol": "CYBER/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T00:17:56.122068+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.2279,
+            "acel_15m_pct": 2.32,
+            "vol_mult": 9.8
+        }
+    },
+    {
+        "id": "climax_ORCAUSDT:USDT_20250820010315",
+        "symbol": "ORCA/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T01:03:15.862099+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.1032,
+            "acel_15m_pct": 1.71,
+            "vol_mult": 6.05
+        }
+    },
+    {
+        "id": "climax_GTCUSDT:USDT_20250820010315",
+        "symbol": "GTC/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T01:03:15.955369+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0548,
+            "acel_15m_pct": 1.22,
+            "vol_mult": 4.48
+        }
+    },
+    {
+        "id": "climax_ASRUSDT:USDT_20250820013305",
+        "symbol": "ASR/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T01:33:05.855282+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0621,
+            "acel_15m_pct": -1.81,
+            "vol_mult": 3.44
+        }
+    },
+    {
+        "id": "climax_SANTOSUSDT:USDT_20250820013806",
+        "symbol": "SANTOS/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T01:38:06.780660+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.0644,
+            "acel_15m_pct": -1.33,
+            "vol_mult": 4.82
+        }
+    },
+    {
+        "id": "climax_AEROUSDT:USDT_20250820015308",
+        "symbol": "AERO/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T01:53:08.656804+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0584,
+            "acel_15m_pct": 1.09,
+            "vol_mult": 5.37
+        }
+    },
+    {
+        "id": "climax_MEMEUSDT:USDT_20250820020306",
+        "symbol": "MEME/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T02:03:06.607557+00:00",
+        "direction": "ALCISTA \ud83d\udfe2",
+        "details": {
+            "score": 0.0537,
+            "acel_15m_pct": 2.89,
+            "vol_mult": 1.86
+        }
+    },
+    {
+        "id": "climax_1000XUSDT:USDT_20250820031315",
+        "symbol": "1000X/USDT:USDT",
+        "strategy": "Climax Reversal",
+        "alert_time": "2025-08-20T03:13:15.103152+00:00",
+        "direction": "BAJISTA \ud83d\udd34",
+        "details": {
+            "score": 0.1189,
+            "acel_15m_pct": -2.17,
+            "vol_mult": 5.47
+        }
+    }
+]
